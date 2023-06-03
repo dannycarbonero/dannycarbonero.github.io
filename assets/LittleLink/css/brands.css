@@ -645,7 +645,7 @@ button:hover,
 /* Read.cv */
 .button.button-read-cv {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #1F1F1A;
   border: 1px solid #FFFFFF;
 }
 .button.button-read-cv:hover,
