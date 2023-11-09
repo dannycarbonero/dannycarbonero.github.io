@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 16.5.1//EN
+N:Carbonero;Danny;;;
+FN:Danny Carbonero
+ORG:BU BME | Breakout Ventures | Nucleate Boston;
+item1.EMAIL;type=INTERNET;type=pref:dcarbo@bu.edu
+item1.X-ABLabel:Academic
+item2.EMAIL;type=INTERNET:danny.carbonero@gmail.com
+item2.X-ABLabel:Personal
+NOTE:BU BME PhD Fellow\, Computational Neuroscience\nBreakout Ventures\, Breakout Fellow\nNucleate Boston\, Director of Communications 
+item3.URL;type=pref:http://dannycarbonero.github.io/NFC_Card_Landing
+item3.X-ABLabel:Business Card
+item4.URL:dannycarbonero.github.io
+item4.X-ABLabel:Website
+END:VCARD
