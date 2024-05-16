@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -715,7 +714,8 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			width: 60%;
+			height: auto;
 		}
 
 			.image.main img {
@@ -1726,7 +1726,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* 3 image grid */
+/* 3 image grids */
 
 	.three_column {
 	  	float: left;
@@ -1738,6 +1738,30 @@ input, select, textarea {
 	  	content: "";
 	  	clear: both;
 	  	display: table;
+	}
+
+	.three_column_book {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+		height: 100%; /* Ensure the div takes full available height */
+		box-sizing: border-box; /* Include padding in the width calculation */
+	}
+
+	.three_row_book::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.three_row_book {
+		height: 500px; /* Set a fixed height or adjust as needed */
+	}
+
+	.three_column_book img {
+		width: 100%;  /* Full width of the column */
+		height: 100%; /* Stretch to the height of the column */
+		object-fit: cover; /* Cover the div without distorting the image */
 	}
 
 /* 2 image grid */
@@ -1752,4 +1776,117 @@ input, select, textarea {
 		content: "";
 	  	clear: both;
 	  	display: table;
+	}
+
+/* playlist grid */
+
+	.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust minmax values based on desired column width */
+    gap: 20px; /* Space between the grid items */
+    padding: 20px; /* Optional: padding around the grid */
+	}
+
+	.playlist-item {
+		list-style: none; /* Removes default list styling */
+	}
+
+
+/* image asym grid */
+	.image-asym-miami {
+		display: grid;
+		grid-template-columns: calc(72% - 1%) calc(28% - 1%); /* Adjusting for a single 10px gap */
+		grid-template-rows: 1fr; /* One row spanning full height */
+		gap:  10px; /* 10px gap only where needed (between columns) */
+		width: 100%; /* Full width of the container */
+	}
+
+	.image-asym-miami .left-image, .image-asym .right-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image-asym-miami .left-image img {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-asym-miami .right-images {
+		display: grid;
+		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
+		height: 100%; /* Full height of the grid */
+		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+	}
+
+	.image-asym-miami .right-images img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Cover the area, cropping as necessary */
+	}
+
+/* image asym grid */
+	.image-asym-boston {
+		display: grid;
+		grid-template-columns: calc(75% - 1%) calc(25% - 1%); /* Adjusting for a single 10px gap */
+		grid-template-rows: 1fr; /* One row spanning full height */
+		gap:  10px; /* 10px gap only where needed (between columns) */
+		width: 100%; /* Full width of the container */
+	}
+
+	.image-asym-boston .left-image, .image-asym .right-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image-asym-boston .left-image img {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-asym-boston .right-images {
+		display: grid;
+		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
+		height: 100%; /* Full height of the grid */
+		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+	}
+
+	.image-asym-boston .right-images img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Cover the area, cropping as necessary */
+	}
+
+/* image asym grid */
+	.image-asym-baseball {
+		display: grid;
+		grid-template-columns: calc(75% - 1%) calc(25% - 1%); /* Adjusting for a single 10px gap */
+		grid-template-rows: 1fr; /* One row spanning full height */
+		gap:  10px; /* 10px gap only where needed (between columns) */
+		width: 100%; /* Full width of the container */
+	}
+
+	.image-asym-baseball .left-image, .image-asym .right-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image-asym-baseball .left-image img {
+		width: 100%;
+		height: auto;
+	}
+
+	.image-asym-baseball .right-images {
+		display: grid;
+		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
+		height: 100%; /* Full height of the grid */
+		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+	}
+
+	.image-asym-baseball .right-images img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Cover the area, cropping as necessary */
 	}
