@@ -1761,7 +1761,7 @@ input, select, textarea {
 	.three_column_book img {
 		width: 100%;  /* Full width of the column */
 		height: 100%; /* Stretch to the height of the column */
-		object-fit: cover; /* Cover the div without distorting the image */
+		object-fit: fill; /* Cover the div without distorting the image */
 	}
 
 /* 2 image grid */
@@ -1797,7 +1797,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-columns: calc(72% - 1%) calc(28% - 1%); /* Adjusting for a single 10px gap */
 		grid-template-rows: 1fr; /* One row spanning full height */
-		gap:  10px; /* 10px gap only where needed (between columns) */
+		gap: 1%; /* Ensures a 10px gap between the two images vertically */
 		width: 100%; /* Full width of the container */
 	}
 
@@ -1816,7 +1816,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
 		height: 100%; /* Full height of the grid */
-		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+		gap: 2%; /* Ensures a 10px gap between the two images vertically */
 	}
 
 	.image-asym-miami .right-images img {
@@ -1830,7 +1830,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-columns: calc(75% - 1%) calc(25% - 1%); /* Adjusting for a single 10px gap */
 		grid-template-rows: 1fr; /* One row spanning full height */
-		gap:  10px; /* 10px gap only where needed (between columns) */
+		gap: 1%; /* Ensures a 10px gap between the two images vertically */
 		width: 100%; /* Full width of the container */
 	}
 
@@ -1849,7 +1849,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
 		height: 100%; /* Full height of the grid */
-		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+		gap: 2%; /* Ensures a 10px gap between the two images vertically */
 	}
 
 	.image-asym-boston .right-images img {
@@ -1863,7 +1863,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-columns: calc(75% - 1%) calc(25% - 1%); /* Adjusting for a single 10px gap */
 		grid-template-rows: 1fr; /* One row spanning full height */
-		gap:  10px; /* 10px gap only where needed (between columns) */
+		gap: 1%; /* Ensures a 10px gap between the two images vertically */
 		width: 100%; /* Full width of the container */
 	}
 
@@ -1882,7 +1882,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-rows: 1fr 1fr; /* Split the height equally for the two images */
 		height: 100%; /* Full height of the grid */
-		gap: 10px; /* Ensures a 10px gap between the two images vertically */
+		gap: 2%; /* Ensures a 10px gap between the two images vertically */
 	}
 
 	.image-asym-baseball .right-images img {
