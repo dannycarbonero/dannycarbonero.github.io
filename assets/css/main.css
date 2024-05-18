@@ -1740,44 +1740,6 @@ input, select, textarea {
 	  	display: table;
 	}
 
-	.three_column_book {
-		float: left;
-		width: 33.33%;
-		padding: 5px;
-		height: 100%; /* Ensure the div takes full available height */
-		box-sizing: border-box; /* Include padding in the width calculation */
-	}
-
-	.three_row_book::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
-
-	.three_row_book {
-		height: 500px; /* Set a fixed height or adjust as needed */
-	}
-
-	.three_column_book img {
-		width: 100%;  /* Full width of the column */
-		height: 100%; /* Stretch to the height of the column */
-		object-fit: fill; /* Cover the div without distorting the image */
-	}
-
-/* 2 image grid */
-
-	.two_column {
-		margin: auto;
-	  	width: 25%;
-	  	padding: 5px;
-	}
-
-	.two_row::after {
-		content: "";
-	  	clear: both;
-	  	display: table;
-	}
-
 /* playlist grid */
 
 	.playlist-grid {
