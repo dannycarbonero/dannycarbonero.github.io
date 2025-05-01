@@ -3,10 +3,10 @@ VERSION:3.0
 N:Carbonero;Danny;;;
 FN:Danny Carbonero
 EMAIL;TYPE=PREF;TYPE=INTERNET:danny@carbonero.io
-EMAIL;TYPE=INTERNET:dcarbo@bu.edu
-NOTE:BU BME PhD Fellow\, Computational Neuroscience\nBreakout Ventures\, Venture Fellow\nNucleate Boston\, Former Director of Communications
-ORG:BU BME | Breakout Ventures | Nucleate Boston
+EMAIL;TYPE=INTERNET:danny@psymed.ventures
+NOTE:PsyMed Ventures\, Investment AssociateBU BME PhD Fellow\, Computational Neuroscience\nBreakout Ventures\, Former Venture Fellow\nNucleate Boston\, Former Director of Communications
+ORG:PsyMed Ventures | BU BME 
 PRODID:-//Apple Inc.//iPhone OS 16.5.1//EN
-URL:http://dannycarbonero.github.io/NFC_Card_Landing
-URL:dannycarbonero.github.io
+URL:carbonerio.io/NFC_Card_Landing
+URL:carbonero.io
 END:VCARD
