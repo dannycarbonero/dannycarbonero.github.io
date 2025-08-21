@@ -1005,3 +1005,35 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* carbonero.io */
+.button.button-carbonero-io {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-carbonero-io .icon {
+  width: 28px;
+  height: 28px;
+  padding: 0px 4px 3.5px 0px;
+}
+.button.button-PsyMed-Ventures:hover,
+.button.button-PsyMed-Ventures:focus {
+  filter: brightness(90%);
+}
+
+/* PsyMed Ventures */
+.button.button-PsyMed-Ventures {
+  color: #000000;
+  background-color: #dfe570;
+  border: 1px solid #FFFFFF;
+}
+.button.button-PsyMed-Ventures .icon {
+  width: 28px;
+  height: 28px;
+  padding: 0px 4px 3.5px 0px;
+}
+.button.button-PsyMed-Ventures:hover,
+.button.button-PsyMed-Ventures:focus {
+  filter: brightness(90%);
+}
+
